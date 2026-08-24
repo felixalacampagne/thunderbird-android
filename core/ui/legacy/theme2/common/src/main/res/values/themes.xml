@@ -11,7 +11,7 @@
         <!-- Draw action mode above content -->
         <item name="windowActionModeOverlay">true</item>
 
-        <!-- Does this really highlight selected text -->
+        <!-- Does this really highlight selected text - how the fork do i get this to forking build? -->
         <item name="android:textColorHighlight">?attr/colorPrimaryFixedDim</item>
 
         <item name="textAppearanceDisplayLarge">@style/TextAppearance.Material3.DisplayLarge</item>
