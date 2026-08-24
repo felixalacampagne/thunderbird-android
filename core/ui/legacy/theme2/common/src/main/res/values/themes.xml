@@ -11,6 +11,7 @@
         <!-- Draw action mode above content -->
         <item name="windowActionModeOverlay">true</item>
 
+        <!-- Does this really highlight selected text -->
         <item name="android:textColorHighlight">?attr/colorPrimaryFixedDim</item>
 
         <item name="textAppearanceDisplayLarge">@style/TextAppearance.Material3.DisplayLarge</item>
