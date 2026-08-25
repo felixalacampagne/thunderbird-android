@@ -111,7 +111,7 @@ jobs:
         run: ./gradlew :app-thunderbird:assemble -Pci=true
 
       - name: Catch and Upload True Thunderbird APK gratuitous change to allow new PR
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@834a144ee995460fba8ed112a2fc961b36a5ec5a # v4.3.0
         with:
           name: thunderbird-debug-apk
           path: "app/build/outputs/apk/**/*.apk"
