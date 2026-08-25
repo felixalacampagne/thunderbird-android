@@ -110,7 +110,7 @@ jobs:
       - name: Build Thunderbird application
         run: ./gradlew :app-thunderbird:assemble -Pci=true
 
-      - name: Catch and Upload True Thunderbird APK
+      - name: Catch and Upload True Thunderbird APK gratuitous change to allow new PR
         uses: actions/upload-artifact@v4
         with:
           name: thunderbird-debug-apk
