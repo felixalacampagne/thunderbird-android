@@ -110,6 +110,13 @@ jobs:
       - name: Build Thunderbird application
         run: ./gradlew :app-thunderbird:assemble -Pci=true
 
+      - name: Catch and Upload True Thunderbird APK - no idea what is built or where, trying copilot guess
+        uses: actions/upload-artifact@834a144ee995460fba8ed112a2fc961b36a5ec5a # v4.3.0
+        with:
+          name: thunderbird-debug-apk
+          path: "app-thunderbird/build/outputs/apk/**/*.apk"
+
+
   check-badging-thunderbird:
     name: Check - Thunderbird badging
     runs-on: ubuntu-latest
@@ -185,3 +192,4 @@ jobs:
 
       - name: Running Android lint
         run: ./gradlew lint
+
